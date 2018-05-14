@@ -1,0 +1,52 @@
+[
+    {
+        "order": "1",
+        "name": "parameterNameA",
+        "notes": "there could be some notes. also some line breaks."
+    },
+    {
+        "order": "2",
+        "name": "parameterNameB",
+        "notes": "there could be some notes. also some line breaks."
+    },
+    {
+        "order": "3",
+        "name": "parameterNameC",
+        "notes": "there could be some notes. also some line breaks."
+    },
+    {
+        "order": "4",
+        "name": "parameterNameD",
+        "notes": "there could be some notes. also some line breaks."
+    },
+    {
+        "order": "5",
+        "name": "parameterNameE",
+        "notes": "there could be some notes. also some line breaks."
+    },
+    {
+        "order": "6",
+        "name": "parameterNameF",
+        "notes": "there could be some notes. also some line breaks."
+    },
+    {
+        "order": "7",
+        "name": "parameterNameG",
+        "notes": "there could be some notes. also some line breaks."
+    },
+    {
+        "order": "8",
+        "name": "parameterNameH",
+        "notes": "there could be some notes. also some line breaks."
+    },
+    {
+        "order": "9",
+        "name": "parameterNameI",
+        "notes": "there could be some notes. also some line breaks."
+    },
+    {
+        "order": "10",
+        "name": "parameterNameJ",
+        "notes": "there could be some notes. also some line breaks."
+    }
+]

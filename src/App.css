@@ -1,0 +1,12 @@
+.appHeader {
+    margin: 1em 0 2em 0;
+}
+.appFooter {
+    margin: 1em 0;
+}
+.version {
+    margin-left: 0.5em;
+}
+.appHeader .version {
+    font-size: 50%;
+}
