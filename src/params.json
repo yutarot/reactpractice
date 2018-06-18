@@ -2,51 +2,61 @@
     {
         "order": "1",
         "name": "parameterNameA",
+        "types": "text",
         "notes": "there could be some notes. also some line breaks."
     },
     {
         "order": "2",
         "name": "parameterNameB",
+        "types": "text",
         "notes": "there could be some notes. also some line breaks."
     },
     {
         "order": "3",
         "name": "parameterNameC",
+        "types": "text",
         "notes": "there could be some notes. also some line breaks."
     },
     {
         "order": "4",
         "name": "parameterNameD",
+        "types": "text",
         "notes": "there could be some notes. also some line breaks."
     },
     {
         "order": "5",
         "name": "parameterNameE",
+        "types": "text",
         "notes": "there could be some notes. also some line breaks."
     },
     {
         "order": "6",
         "name": "parameterNameF",
+        "types": "text",
         "notes": "there could be some notes. also some line breaks."
     },
     {
         "order": "7",
         "name": "parameterNameG",
+        "types": "text",
         "notes": "there could be some notes. also some line breaks."
     },
     {
         "order": "8",
         "name": "parameterNameH",
+        "types": "text",
         "notes": "there could be some notes. also some line breaks."
     },
     {
         "order": "9",
         "name": "parameterNameI",
+        "types": "text",
         "notes": "there could be some notes. also some line breaks."
     },
     {
         "order": "10",
         "name": "parameterNameJ",
+        "types": "text",
         "notes": "there could be some notes. also some line breaks."
     }
 ]
