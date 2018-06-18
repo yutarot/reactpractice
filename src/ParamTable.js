@@ -2,8 +2,6 @@ import React from 'react'
 import { Table, Icon, Input, Popup } from 'semantic-ui-react'
 import './ParamTable.css'
 import params from './params.json'
-// Modal broken 
-//import QueryModal from './QueryModal';
 
 const ParamTable = () => (
     <Table striped textAlign='center'>

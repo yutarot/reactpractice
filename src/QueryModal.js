@@ -1,26 +1,25 @@
 import React, { Component } from 'react'
-import { Input, Modal } from 'semantic-ui-react'
+import { Button, Modal } from 'semantic-ui-react'
 
 export default class QueryModal extends Component {
-    state = { modalOpen: false }
+    state = { open: false }
 
-    handleOpen = (e) => {
-        if (e.key === 'Enter') {
-            this.setState({ modalOpen: true })
-        }
-    }
-
-    handleClose = () => this.setState({ modalOpen: false })
+    show = dimmer => () => this.setState({ dimmer, open: true })
+    close = () => this.setState({ open: false })
 
     render() {
+        const { open, dimmer } = this.state
         return (
-            <Modal
-                trigger={<Input placeholder='text' onKeyPress={this.handleOpen} />}
-                open={this.state.modalOpen}
-                onClose={this.handleClose}
-                basic
-                content='simple content'
-            />
+            <div>
+                <Button onClick={this.show('blurring')}>create query</Button>
+                <Modal dimmer={dimmer} open={open} onClose={this.close}>
+                    <Modal.Content>
+                        <Modal.Description>
+                            <a target='_blank' rel='noopener noreferrer' href='https://google.com'>google.com</a>
+                        </Modal.Description>
+                    </Modal.Content>
+                </Modal>
+            </div>
         )
     }
 }
