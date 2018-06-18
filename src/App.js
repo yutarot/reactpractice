@@ -3,7 +3,7 @@ import { Container, Header, Segment } from 'semantic-ui-react'
 import './App.css'
 import ParamTable from './ParamTable'
 import packageJson from '../package.json'
-import QueryModal from './QueryModal';
+import QueryModal from './QueryModal'
 
 const githubUrl = 'https://github.com/yutarot/reactpractice'
 
@@ -33,4 +33,5 @@ class App extends React.Component {
     </div>
   }
 }
+
 export default App

@@ -1,7 +1,7 @@
-import React, { Component } from 'react'
+import React from 'react'
 import { Button, Modal } from 'semantic-ui-react'
 
-export default class QueryModal extends Component {
+class QueryModal extends React.Component {
     state = { open: false }
 
     show = dimmer => () => this.setState({ dimmer, open: true })
@@ -23,3 +23,5 @@ export default class QueryModal extends Component {
         )
     }
 }
+
+export default QueryModal
