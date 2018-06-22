@@ -17,7 +17,7 @@ class App extends React.Component {
             <Container>
               {packageJson.name}
               <span className='version'>
-                <a href={githubUrl}>{packageJson.version}</a>
+                <a title="GitHub repository" href={githubUrl}>{packageJson.version}</a>
               </span>
             </Container>
           </Header>
